@@ -18,6 +18,7 @@ public class PelotaController0 : MonoBehaviour
     [SerializeField] float force;
 
     [SerializeField] float delay;
+
     Dictionary<string,int> ladrillos = new Dictionary<string, int>(){
         {"LadrilloAmarillo", 10},
         {"LadrilloVerde", 15},
