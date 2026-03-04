@@ -35,6 +35,8 @@ public class CreditsController : MonoBehaviour
 
     private bool finished;
 
+    AudioSource sfx;
+
     void Start()
     {
         // Estado inicial
@@ -113,7 +115,7 @@ public class CreditsController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!string.IsNullOrWhiteSpace(gameSceneName))
-                SceneManager.LoadScene(gameSceneName);
+                SceneManager.LoadScene(0);
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

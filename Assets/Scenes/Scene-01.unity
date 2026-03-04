@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 413458546}
   - component: {fileID: 413458545}
   m_Layer: 0
-  m_Name: ColotText
+  m_Name: ColorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
